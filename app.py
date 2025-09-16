@@ -7,7 +7,7 @@ from PyPDF2 import PdfReader
 import joblib
 
 # Constants
-MODEL_DIR = "./perft_lora_legalbert_model/model_files"
+MODEL_DIR = "./peft_lora_legalbert_model/model_files"
 BASE_MODEL = "nlpaueb/legal-bert-base-uncased"
 
 # Load the label encoder
